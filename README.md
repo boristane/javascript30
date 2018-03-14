@@ -2,8 +2,9 @@
 
 # JavaScript30 - 30 Day JavaScript Challenge
 
-Boris Tane, Software Enthusiast  
-Last Commit Date: May 12, 2017
+Boris Tane, Software Enthusiast 
+Start Date:         March 14, 2018 
+Last Commit Date:   March 14, 2018
 
 > Course created by [Wes Bos](https://github.com/wesbos)
 > Join the challenge (for free!) here - [JavaScript30](https://javascript30.com/account)
