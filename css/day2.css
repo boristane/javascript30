@@ -1,0 +1,77 @@
+html{
+    text-align: center;
+    font-size: 10px;
+}
+
+body{
+    margin: 0;
+    display: flex;
+    flex: 1;
+    min-height: 100vh;
+    align-items: center;
+    font-size: 10px;
+}
+
+.clock{
+    width: 30rem;
+    height: 30rem;
+    border: solid 20px lightgray;
+    border-radius: 50%;
+    margin: 50px auto;
+    position: relative;
+    padding: 2rem;
+}
+
+.clock-face{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform: translateY(-3px)
+}
+
+.hand{
+    width: 50%;
+    height: 6px;
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    transform-origin: 100%;
+    transform: rotate(90deg);
+    transition: all 0.05s cubic-bezier(0, 2.18, 1, 1);
+}
+
+.hour-hand{
+    width: 25%;
+    transform: translateX(100%) rotate(90deg);
+    transform-origin: 100%;
+}
+
+.second-hand{
+    height: 3px;
+    background-color: red;
+}
+
+
+
+footer{
+	text-align: right;
+	font-size: 1.0em;
+	color: grey;
+    margin: 20px;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+footer a{
+	color: grey;
+}
+
+footer a:visited{
+	color: grey;
+}
+
+footer a:hover{
+	color: black;
+}
