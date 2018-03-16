@@ -3,9 +3,10 @@
 # JavaScript30 - 30 Day JavaScript Challenge
 
 Boris Tane, Software Enthusiast 
+
 Start Date: March 14, 2018
 
-Last Commit Date: March 15, 2018
+Last Commit Date: March 16, 2018
 
 > Course created by [Wes Bos](https://github.com/wesbos)
 > Join the challenge (for free!) here - [JavaScript30](https://javascript30.com/account)
@@ -27,12 +28,21 @@ New skills:
 
 ## Day 2
 
-[JavaScript Drum Kit](views/day2.html)
+[CSS Clock](views/day2.html)
 
 New skills:
 1. css transitions
 2. css transforms
 3. js Date class
+
+## Day 3
+
+[CSS Variables](views/day3.html)
+
+New skills:
+1. css variables
+2. control css variables with js
+3. css root element (document.documentElement, :root)
 
 # Live Demo
 

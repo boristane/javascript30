@@ -1,0 +1,55 @@
+:root{
+    --base: #bada55;
+    --spacing: 10px;
+    --blur: 10px;
+}
+
+body{
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;;
+    text-align: center;
+    background-color: #224350;
+    font-weight: 100;
+    font-size: 30px;
+    color: white;
+}
+
+.controls{
+    margin-bottom: 50px;
+}
+
+img{
+    box-sizing: border-box;
+    width: 80%;
+    padding: var(--spacing);
+    background-color: var(--base);
+    filter: blur(var(--blur));
+}
+
+.highlight{
+    color: var(--base);
+}
+
+footer{
+	text-align: right;
+	font-size: 0.4em;
+	color: grey;
+    margin: 20px;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+footer a{
+	color: grey;
+}
+
+footer a:visited{
+	color: grey;
+}
+
+footer a:hover{
+	color: black;
+}
