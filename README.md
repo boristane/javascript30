@@ -55,6 +55,30 @@ New skills:
 2. trick with toLowerCase() to sort alphebetically
 3. spread operator and Set() to remove duplicates in an array
 
+## Day 5
+
+[Flex Panels Image Galery](views/day5.html)
+
+New skills:
+1. TODO
+
+## Day 6
+
+[Type Ahead](views/day6.html)
+
+New skills:
+1. ES6 Fetch function
+2. regexp replace function
+3. keyup event required in addition to change when listening for text input changes
+
+## Day 7
+
+[Array Cardio Day 1](views/day7.html)
+
+New skills:
+1. Array.prototype.find(), Array.prototype.findIndex() 
+2. Array.prototype.some(), Array.prototype.every()
+
 # Live Demo
 
 https://boristane.github.io/javascript30/
