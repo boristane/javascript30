@@ -79,6 +79,14 @@ New skills:
 1. Array.prototype.find(), Array.prototype.findIndex() 
 2. Array.prototype.some(), Array.prototype.every()
 
+## Day 8
+
+[Fun with HTML5 Canvas](views/day8.html)
+
+New skills:
+1. hue colors
+2. mouseup, mousedown, mousemove and mouseout events
+
 # Live Demo
 
 https://boristane.github.io/javascript30/
