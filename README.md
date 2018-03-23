@@ -87,6 +87,13 @@ New skills:
 1. hue colors
 2. mouseup, mousedown, mousemove and mouseout events
 
+## Day 9
+
+[Dev Tools Domination](views/day9.html)
+
+New skills:
+1. various console API methods
+
 # Live Demo
 
 https://boristane.github.io/javascript30/
