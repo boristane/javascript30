@@ -1,0 +1,65 @@
+:root{
+    --footerColor: white;
+    --itemBackground: white;
+    --borderColor: black;
+    --checkedBackgroundColor: lightgreen;
+}
+
+body{
+    background-color: #75F851;
+    font-family: monospace;
+}
+
+.container{
+    max-width: 400px;;
+    margin: auto;
+    margin-top: 80px;
+    box-shadow:10px 10px 0 rgba(0,0,0,0.1);
+    border-radius: 5px;
+}
+
+.item{
+    background-color: var(--itemBackground);
+    border-bottom: solid var(--borderColor) 1px;
+    transition: background-color 0.5s ease;
+}
+
+.item:first-child{
+    border-radius: 5px 5px 0 0;
+}
+
+.item:last-child{
+    border-radius: 0 0 5px 5px;
+    border-bottom: none;
+}
+
+input[type="checkbox"] {
+    margin:20px;
+}
+
+.checked{
+    background-color: var(--checkedBackgroundColor);
+}
+
+footer{
+	text-align: right;
+	font-size: 0.8em;
+	color: var(--footerColor);
+    margin: 20px;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+footer a{
+	color: var(--footerColor);
+}
+
+footer a:visited{
+	color: var(--footerColor);
+}
+
+footer a:hover{
+	color: black;
+}
