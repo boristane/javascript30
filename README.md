@@ -94,6 +94,25 @@ New skills:
 New skills:
 1. various console API methods
 
+## Day 10
+
+[Hold Shift and Check Multiple](views/day10.html)
+
+New skills:
+1. combine event listeners with the help of boolean flags
+
+## Day 11
+
+[Custom Video Player](views/day11.html)
+
+New skills:
+1. use the html <video> tag
+2. inputs of type range
+3. css :fullscreen pseudo-class
+4. sort of conditional css
+5. the dataset object of html elements when they have a data attribute
+6. offsetWidth property to get the width of an html element
+
 # Live Demo
 
 https://boristane.github.io/javascript30/
