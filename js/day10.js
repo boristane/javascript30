@@ -20,16 +20,12 @@ document.addEventListener("DOMContentLoaded", () => {
                 // Manage the shif key down event
                 if(shiftKey){
                     indexLastChecked = [...UI.checkBoxes].indexOf(lastChecked);
-                    UI.checkBoxes.forEach((box, i) => {
-                        if(i === indexLastChecked){
-                            let n = index < indexLastChecked ? index : indexLastChecked;
-                            while(n < Math.max(index, indexLastChecked)){
-                                UI.checkBoxes[n].checked = true;
-                                UI.items[n].classList.add("checked");
-                                n += 1;
-                            }
-                        }
-                    });
+                    let n = index < indexLastChecked ? index : indexLastChecked;
+                    while(n < Math.max(index, indexLastChecked)){
+                        UI.checkBoxes[n].checked = true;
+                        UI.items[n].classList.add("checked");
+                        n += 1;
+                    }
                 }
 
 
