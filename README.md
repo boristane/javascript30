@@ -113,6 +113,14 @@ New skills:
 5. the dataset object of html elements when they have a data attribute
 6. offsetWidth property to get the width of an html element
 
+## Day 12
+
+[Key Sequence Detetection](views/day12.html)
+
+New skills:
+1. None
+
+
 # Live Demo
 
 https://boristane.github.io/javascript30/
