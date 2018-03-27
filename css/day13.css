@@ -1,0 +1,76 @@
+:root{
+    --footerColor: white;
+    --backgroundColor: cadetblue;
+}
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    background-color: var(--backgroundColor);
+    font-family: monospace;
+}
+
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+
+.container{
+    max-width: 700px;
+    background-color: white;
+    margin: 100px auto;
+    padding: 40px;
+    border-radius: 2px;
+    text-align: justify;
+    box-shadow: black 2px 3px 2px;
+}
+
+.align-left{
+    float: left;
+    margin-right: 20px;
+}
+
+.align-right{
+    float: right;
+    margin-left: 20px;
+}
+
+.slide-in{
+    opacity: 0;
+    transition: all 0.5s;
+    max-width: 400px;
+}
+
+.align-left.slide-in{
+    transform: translateX(-30%) scale(0.95);
+}
+
+.align-right.slide-in{
+    transform: translateX(30%) scale(0.95);
+}
+
+.slide-in.active{
+    opacity: 1;
+    transform: translateX(0%) scale(1);
+}
+
+/* My beloved footer */
+
+footer{
+	text-align: right;
+	font-size: 0.8em;
+	color: var(--footerColor);
+    margin: 20px;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+footer a{
+	color: var(--footerColor);
+}
+
+footer a:visited{
+	color: var(--footerColor);
+}
+
+footer a:hover{
+	color: black;
+}

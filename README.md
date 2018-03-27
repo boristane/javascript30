@@ -120,6 +120,13 @@ New skills:
 New skills:
 1. None
 
+## Day 13
+
+[Slide in on Scroll](views/day13.html)
+
+New skills:
+1. window scrolled event
+
 
 # Live Demo
 
