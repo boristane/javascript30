@@ -126,6 +126,7 @@ New skills:
 
 New skills:
 1. window scrolled event
+2. debounce functions
 
 
 # Live Demo
