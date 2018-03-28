@@ -128,6 +128,15 @@ New skills:
 1. window scrolled event
 2. debounce functions
 
+## Day 14
+
+[Javascript References VS Copying](views/day14.html)
+
+New skills:
+1. Array.from() to copy arrays
+2. Object.assign() to copy objects
+3. JSON.parse(JSON.stringify(object)) is the "poor's man deepClone."
+
 
 # Live Demo
 
