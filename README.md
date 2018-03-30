@@ -137,6 +137,14 @@ New skills:
 2. Object.assign() to copy objects
 3. JSON.parse(JSON.stringify(object)) is the "poor's man deepClone."
 
+[LocalStorage](views/day15.html)
+
+New skills:
+1. basics of localStorage (stringify the data before adding it to localStorage)
+2. event delegation
+3. matches() method from the browser API
+
+
 
 # Live Demo
 
