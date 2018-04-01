@@ -1,0 +1,22 @@
+/* My beloved footer */
+
+footer{
+
+	text-align: right;
+	font-size: 0.8em;
+	color: grey;
+    margin: 20px;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+footer a{
+	color: grey;
+}
+
+footer a:visited{
+	color: grey;
+}
+
+footer a:hover{
+	color: black;
+}

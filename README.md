@@ -154,6 +154,12 @@ New skills:
 New skills:
 1. Nothing
 
+[Adding Up Times](views/day18.html)
+
+New skills:
+1. KISS -> Keep It Simple and Stupid
+2. YAGNI -> You Ain't Gonna Need It
+
 # Live Demo
 
 https://boristane.github.io/javascript30/
