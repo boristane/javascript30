@@ -149,6 +149,11 @@ New skills:
 New skills:
 1. Nothing
 
+[Sort Without Articles](views/day17.html)
+
+New skills:
+1. Nothing
+
 # Live Demo
 
 https://boristane.github.io/javascript30/
