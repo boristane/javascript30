@@ -160,6 +160,11 @@ New skills:
 1. KISS -> Keep It Simple and Stupid
 2. YAGNI -> You Ain't Gonna Need It
 
+[Webcam Fun](views/day19.html)
+
+New skills:
+1. videos, canvas, webcam
+
 # Live Demo
 
 https://boristane.github.io/javascript30/
