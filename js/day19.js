@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
     UI.ctx = UI.canvas.getContext("2d");
 
     function getVideo(){
-        navigator.mediaDevices.getUserMedia({video: true, audio: false})
+        navigator.mediaDevices.getUserMedia({video: {facingMode: "user"}, audio: false})
         .then(localMediaStream => {
             console.log(localMediaStream);
             UI.video.srcObject = localMediaStream;

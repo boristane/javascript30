@@ -163,7 +163,14 @@ New skills:
 [Webcam Fun](views/day19.html)
 
 New skills:
-1. videos, canvas, webcam
+1. videos, canvas, webcam, promises
+2. video "canplay" event
+
+[Speech Detection](views/day20.html)
+
+New skills:
+1. contenteditable html global variable
+2. basic speech recognition with the browser
 
 # Live Demo
 

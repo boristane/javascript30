@@ -1,6 +1,8 @@
 .title{
 	font-family: monospace;
 	text-align: center;
+	font-size: 0.9em;
+	padding: 10px;
 }
 
 a{
@@ -20,10 +22,12 @@ a:hover{
 	max-width: 900px;
 	margin: auto;
 	margin-top: 50px;
+	padding: 10px;
 }
 
 .challenges{
 	font-family: monospace;
+	font-size: 0.9em;
 }
 
 footer{
@@ -47,4 +51,10 @@ footer a:visited{
 
 footer a:hover{
 	color: black;
+}
+
+@media screen and (max-width: 575px) {
+    footer{
+		position: static;
+	}
 }

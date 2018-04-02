@@ -1,0 +1,60 @@
+body{
+    background-color: lightblue;
+    font-family: monospace;
+}
+
+.words{
+    max-width: 500px;
+    margin: 50px auto;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 10px 10px 0 rgba(0, 0, 0, 0.1);
+    padding: 1em 2em 1em 5em;
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#d9eaf3), color-stop(4%, #fff)) 0 4px;
+    background-size: 100% 3em;
+    position: relative;
+    line-height: 3em;
+}
+
+p{
+    margin: 0 0 3em;
+}
+
+.words:before{
+    content: "";
+    position: absolute;
+    width: 4px;
+    top: 0;
+    left: 30px;
+    bottom: 0;
+    border: 1px solid;
+    border-color: transparent #efe4e4;
+}
+
+
+/* My beloved footer */
+
+footer{
+
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+	text-align: right;
+	font-size: 0.8em;
+	color: grey;
+    margin: 20px;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+footer a{
+	color: grey;
+}
+
+footer a:visited{
+	color: grey;
+}
+
+footer a:hover{
+	color: black;
+}
