@@ -172,6 +172,16 @@ New skills:
 1. contenteditable html global variable
 2. basic speech recognition with the browser
 
+[Geolocalisation](views/day21.html)
+
+New skills:
+1. none:didn't complete as requires a macbook which I don't have
+
+[Follow Along Links](views/day22.html)
+
+New skills:
+1. none:didn't complete as requires a macbook which I don't have
+
 # Live Demo
 
 https://boristane.github.io/javascript30/
