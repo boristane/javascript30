@@ -25,9 +25,19 @@ document.addEventListener("DOMContentLoaded", () => {
             p = document.createElement("p");
             UI.words.appendChild(p);
         }
-        
-        if(transcript.includes("red")){
-            p.style.color = console.log("You said red!");
+
+        if(transcript.includes("Wikipedia") && e.results[0].isFinal){
+            let search = e.results[0]["0"].transcript.split("Wikepedia");
+            console.log(search[search.length - 1]);
+            wikiSearch(search[search.length - 1], (results) => {
+                let a = document.createElement("a");
+                a.setAttribute("href", "https://en.wikipedia.org/?curid=" + results[0].pageid);
+                a["target"] = "_blank";
+                document.body.appendChild(a);
+                a.click();
+                document.body.removeChild(a);
+            });
+            
         }
 
     });
@@ -37,3 +47,11 @@ document.addEventListener("DOMContentLoaded", () => {
     recognition.start();
 
 });
+
+function wikiSearch(word, callback){
+    var wikiAPI = "https://en.wikipedia.org/w/api.php?";
+    var callURL = wikiAPI + "action=query&format=json&list=search&utf8=1&srsearch=" + encodeURIComponent(word) + "&srlimit=10&origin=*";
+    $.getJSON(callURL, function(data){
+        callback(data.query.search);
+    }); 
+}

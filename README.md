@@ -6,7 +6,11 @@ Boris Tane, Software Enthusiast
 
 Start Date: March 14, 2018
 
-Last Commit Date: March 17, 2018
+Last Commit Date: April 07, 2018
+
+# Live Demo
+
+https://boristane.github.io/javascript30/
 
 >Course created by [Wes Bos](https://github.com/wesbos)
 
@@ -180,8 +184,5 @@ New skills:
 [Follow Along Links](views/day22.html)
 
 New skills:
-1. none:didn't complete as requires a macbook which I don't have
-
-# Live Demo
-
-https://boristane.github.io/javascript30/
+1. translate css property in javascript
+2. getBoundingClientRect() from the DOM API
