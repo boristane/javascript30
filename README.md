@@ -179,7 +179,7 @@ New skills:
 [Geolocalisation](views/day21.html)
 
 New skills:
-1. none:didn't complete as requires a macbook which I don't have
+1. none: didn't complete as requires a macbook which I don't have
 
 [Follow Along Links](views/day22.html)
 
@@ -197,3 +197,9 @@ New skills:
 New skills:
 1. make a sticky nav
 2. add a class to the body and use it as conditional css
+
+[Event Propagation](views/day25.html)
+
+New skills:
+1. addEventListerner optional options argument
+2. once attribute of the options argument unbinds the event after one call
