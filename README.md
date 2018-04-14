@@ -186,3 +186,14 @@ New skills:
 New skills:
 1. translate css property in javascript
 2. getBoundingClientRect() from the DOM API
+
+[Speech Synthesis](views/day23.html)
+
+New skills:
+1. speech synthesis API
+
+[Sticky Nav](views/day24.html)
+
+New skills:
+1. make a sticky nav
+2. add a class to the body and use it as conditional css
