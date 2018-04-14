@@ -213,3 +213,8 @@ New skills:
 
 New skills:
 1. mouse events dance that can be used to implement a drag and drop
+
+[Video Speed Controler](views/day28.html)
+
+New skills:
+1. function doesn't create a new this whilst () => creates a new this
