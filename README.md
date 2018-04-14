@@ -203,3 +203,8 @@ New skills:
 New skills:
 1. addEventListerner optional options argument
 2. once attribute of the options argument unbinds the event after one call
+
+[Stripe Follow Along Nav](views/day26.html)
+
+New skills:
+1. nothing much. Put various pieces together
