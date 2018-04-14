@@ -23,6 +23,8 @@ a:hover{
 	margin: auto;
 	margin-top: 50px;
 	padding: 10px;
+	display: grid;
+	grid-template-columns: auto auto;
 }
 
 .challenges{

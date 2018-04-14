@@ -218,3 +218,8 @@ New skills:
 
 New skills:
 1. function doesn't create a new this whilst () => creates a new this
+
+[Countdown Clock](views/day29.html)
+
+New skills:
+1. used a lot of what was learned before in a single simple small project
