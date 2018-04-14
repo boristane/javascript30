@@ -59,4 +59,8 @@ footer a:hover{
     footer{
 		position: static;
 	}
+
+	.container{
+		grid-template-columns: auto;
+	}
 }

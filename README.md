@@ -6,7 +6,7 @@ Boris Tane, Software Enthusiast
 
 Start Date: March 14, 2018
 
-Last Commit Date: April 07, 2018
+Last Commit Date: April 14, 2018
 
 # Live Demo
 
@@ -223,3 +223,8 @@ New skills:
 
 New skills:
 1. used a lot of what was learned before in a single simple small project
+
+[Whack-a-mole!](views/day30.html)
+
+New skills:
+1. nothing really new, just used a lot of concepts together in a self contained project
