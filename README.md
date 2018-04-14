@@ -208,3 +208,8 @@ New skills:
 
 New skills:
 1. nothing much. Put various pieces together
+
+[Click and Drag to Scroll](views/day27.html)
+
+New skills:
+1. mouse events dance that can be used to implement a drag and drop
