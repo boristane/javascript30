@@ -64,7 +64,7 @@ New skills:
 [Flex Panels Image Galery](views/day5.html)
 
 New skills:
-1. TODO
+1. // TODO
 
 ## Day 6
 
@@ -141,6 +141,8 @@ New skills:
 2. Object.assign() to copy objects
 3. JSON.parse(JSON.stringify(object)) is the "poor's man deepClone."
 
+## Day 15
+
 [Local Storage](views/day15.html)
 
 New skills:
@@ -148,15 +150,21 @@ New skills:
 2. event delegation
 3. matches() method from the browser API
 
+## Day 16
+
 [Mouse Move Shadow](views/day16.html)
 
 New skills:
 1. Nothing
 
+## Day 17
+
 [Sort Without Articles](views/day17.html)
 
 New skills:
 1. Nothing
+
+## Day 18
 
 [Adding Up Times](views/day18.html)
 
@@ -164,11 +172,15 @@ New skills:
 1. KISS -> Keep It Simple and Stupid
 2. YAGNI -> You Ain't Gonna Need It
 
+## Day 19
+
 [Webcam Fun](views/day19.html)
 
 New skills:
 1. videos, canvas, webcam, promises
 2. video "canplay" event
+
+## Day 20
 
 [Speech Detection](views/day20.html)
 
@@ -176,10 +188,14 @@ New skills:
 1. contenteditable html global variable
 2. basic speech recognition with the browser
 
+## Day 21
+
 [Geolocalisation](views/day21.html)
 
 New skills:
 1. none: didn't complete as requires a macbook which I don't have
+
+## Day 22
 
 [Follow Along Links](views/day22.html)
 
@@ -187,10 +203,14 @@ New skills:
 1. translate css property in javascript
 2. getBoundingClientRect() from the DOM API
 
+## Day 23
+
 [Speech Synthesis](views/day23.html)
 
 New skills:
 1. speech synthesis API
+
+## Day 24
 
 [Sticky Nav](views/day24.html)
 
@@ -198,31 +218,43 @@ New skills:
 1. make a sticky nav
 2. add a class to the body and use it as conditional css
 
+## Day 25
+
 [Event Propagation](views/day25.html)
 
 New skills:
 1. addEventListerner optional options argument
 2. once attribute of the options argument unbinds the event after one call
 
+## Day 26
+
 [Stripe Follow Along Nav](views/day26.html)
 
 New skills:
 1. nothing much. Put various pieces together
+
+## Day 27
 
 [Click and Drag to Scroll](views/day27.html)
 
 New skills:
 1. mouse events dance that can be used to implement a drag and drop
 
+## Day 28
+
 [Video Speed Controler](views/day28.html)
 
 New skills:
 1. function doesn't create a new this whilst () => creates a new this
 
+## Day 29
+
 [Countdown Clock](views/day29.html)
 
 New skills:
 1. used a lot of what was learned before in a single simple small project
+
+## Day 30
 
 [Whack-a-mole!](views/day30.html)
 
